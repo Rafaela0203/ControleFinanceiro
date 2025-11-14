@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_default_category" /> <item
+    android:id="@+id/goalManagementFragment"
+    android:title="Metas"
+    android:icon="@drawable/ic_default_category" />
+</menu>

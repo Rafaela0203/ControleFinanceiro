@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="export_formats">
+        <item>PDF</item>
+        <item>EXCEL</item>
+    </string-array>
+
+    <string-array name="suggested_categories">
+        <item>Moradia</item>
+        <item>Alimentação</item>
+        <item>Transporte</item>
+        <item>Saúde</item>
+        <item>Lazer</item>
+        <item>Educação</item>
+        <item>Contas</item>
+        <item>Investimentos</item>
+        <item>Roupas</item>
+        <item>Presentes</item>
+        <item>Outros</item>
+    </string-array>
+</resources>

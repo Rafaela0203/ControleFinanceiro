@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    android:padding="32dp"
+    tools:context=".presentention.auth.AuthActivity"
+    tools:theme="@style/Base.Theme.ControleFinanceiro">
+
+    <ImageView
+        android:id="@+id/iv_logo_auth"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:contentDescription="Logo Equilibra"
+        android:src="@drawable/logo_equilibra"
+        app:layout_constraintBottom_toTopOf="@+id/tv_title_equilibra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:tint="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_title_equilibra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Equilibra"
+        android:textColor="?attr/colorTextPrimary"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_subtitle_equilibra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_logo_auth" />
+
+    <TextView
+        android:id="@+id/tv_subtitle_equilibra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Você no controle\nda suas finanças"
+        android:textAlignment="center"
+        android:textColor="?attr/colorTextSecondary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/btn_login_google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_equilibra" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login_google"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/textInputBackground"
+        android:drawableStart="@drawable/ic_google"
+        android:drawablePadding="16dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Login com Google"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorTextPrimary"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/btn_login_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="?attr/textInputBackground"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="16dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Login com E-mail"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorTextPrimary"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_continue_without_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_continue_without_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        android:text="Continuar sem login"
+        android:textColor="?attr/colorTextSecondary"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_login_biometric"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Entrar com digital"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_fingerprint"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="?attr/colorTextPrimary"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_biometric_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Entrar com digital"
+        android:textColor="?attr/colorTextSecondary"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/btn_login_biometric"
+        app:layout_constraintStart_toStartOf="@id/btn_login_biometric"
+        app:layout_constraintTop_toBottomOf="@id/btn_login_biometric"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

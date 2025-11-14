@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ControleFinanceiro" parent="Theme.Material3.Dark.NoActionBar">
+
+        <item name="colorPrimary">@color/dark_purple_start</item>
+        <item name="colorSecondary">@color/dark_magenta_end</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_card</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnBackground">@color/dark_text_primary</item>
+        <item name="colorOnSurface">@color/dark_text_primary</item>
+
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="gradientButtonBackground">@drawable/bg_gradient_button_dark</item>
+        <item name="textInputBackground">@drawable/bg_edittext_dark</item>
+        <item name="colorTextPrimary">@color/dark_text_primary</item>
+        <item name="colorTextSecondary">@color/dark_text_secondary</item>
+    </style>
+
+    <style name="Theme.ControleFinanceiro" parent="Base.Theme.ControleFinanceiro" />
+</resources>

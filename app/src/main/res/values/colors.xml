@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="dark_background">#1C1C1C</color>
+    <color name="dark_card">#3D3D3D</color>
+    <color name="dark_text_primary">#FFFFFF</color>
+    <color name="dark_text_secondary">#8A8A8A</color>
+    <color name="dark_purple_start">#A100ED</color>
+    <color name="dark_magenta_end">#E8008A</color>
+    <color name="dark_toggle_checked">#A100ED</color>
+    <color name="dark_toggle_unchecked">#3D3D3D</color>
+    <color name="light_background">#F4F7FF</color>
+    <color name="light_card">#FFFFFF</color>
+    <color name="light_text_primary">#000000</color>
+    <color name="light_text_secondary">#6E6E6E</color>
+    <color name="light_blue_start">#007BFF</color>
+    <color name="light_blue_end">#00C6FF</color>
+    <color name="light_toggle_checked">#007BFF</color>
+    <color name="light_toggle_unchecked">#FFFFFF</color>
+    <color name="status_green_receita">#00FF19</color>
+    <color name="status_red_despesa">#FF0000</color>
+</resources>

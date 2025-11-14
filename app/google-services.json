@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "92941386081",
+    "project_id": "controlefinanceiro-4fdd3",
+    "storage_bucket": "controlefinanceiro-4fdd3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92941386081:android:337487e0965edecfd4c520",
+        "android_client_info": {
+          "package_name": "br.edu.utfpr.controlefinanceiro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92941386081-nhouolls0c7j85mcvvo0up8ranujl78t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.utfpr.controlefinanceiro",
+            "certificate_hash": "f31879f53c6dce6775c5ce6a9900147223cab2b0"
+          }
+        },
+        {
+          "client_id": "92941386081-2gg80r41vqi0oj5630s5knajo8mk3nke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxUYwrHCo0EHrn8hkeLT5r9paRrY3yos8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92941386081-2gg80r41vqi0oj5630s5knajo8mk3nke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

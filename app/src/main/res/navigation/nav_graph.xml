@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="br.edu.utfpr.controlefinanceiro.presentention.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_transactionRegistrationFragment"
+            app:destination="@id/transactionRegistrationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchAndCalendarFragment"
+        android:name="br.edu.utfpr.controlefinanceiro.presentention.transactions.SearchAndCalendarFragment"
+        android:label="Transações"
+        tools:layout="@layout/fragment_search_and_calendar" />
+
+    <fragment
+        android:id="@+id/goalManagementFragment"
+        android:name="br.edu.utfpr.controlefinanceiro.presentention.goals.GoalManagementFragment"
+        android:label="Metas"
+        tools:layout="@layout/fragment_goal_management" />
+
+    <fragment
+        android:id="@+id/categoryManagementFragment"
+        android:name="br.edu.utfpr.controlefinanceiro.presentention.categories.CategoryManagementFragment"
+        android:label="Categorias"
+        tools:layout="@layout/fragment_category_management" />
+
+    <fragment
+        android:id="@+id/transactionRegistrationFragment"
+        android:name="br.edu.utfpr.controlefinanceiro.presentention.transactions.TransactionRegistrationFragment"
+        android:label="Nova Transação"
+        tools:layout="@layout/fragment_transaction_registration" />
+
+</navigation>
